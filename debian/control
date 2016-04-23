@@ -1,0 +1,11 @@
+Source: lf-net-vpnstarter
+Maintainer: Moritz Grosch <littlefox@lf-net.org>
+Section: net
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: qtbase5-dev, libssl-dev, debhelper (>= 9)
+
+Package: lf-net-vpnstarter
+Architecture: any
+Depends: ${misc:Depends}
+Description: Retrieve configuration and certificate for LF-Net VPN
