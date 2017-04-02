@@ -22,3 +22,6 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 LIBS     += -lssl -lcrypto
+
+target.path = /usr/bin
+INSTALLS += target
